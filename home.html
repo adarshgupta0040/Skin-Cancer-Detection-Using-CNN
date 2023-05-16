@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <title>Skin Cancer Detector</title>
+    <link rel="icon" type="image/x-icon" href="Login/images/icon.png" style="height: 100px;">
+    
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+    <!-- <link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous"> -->
+  
+
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="css/woza.css" />
+    <script type="text/javascript" src="js/target_classes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
+    <script type="text/javascript" src="js/mobile-net.js"></script>
+  </head>
+  <body style="background-color:#c7a0a0;">
+    <!-- Top Bar -->
+    <div class="w3-center " style="
+    background-color: #c7e5ef ; padding:0.5px">
+      <p class="space-letters">
+        <a class="w3-small w3-hover-text-deep-orange text-color" href="faq.html"
+          ><b style=" font-size: 2em;" >About Project  | </b></a
+        >
+        
+        <a target="_blank"
+          class="w3-small w3-hover-text-deep-orange text-color"
+          href="https://github.com/adarshgupta0040"
+        >
+          <b style=" font-size: 2em;">GitHub Profile </b></a
+        >
+        
+        <a 
+          class="w3-small w3-hover-text-deep-orange text-color"
+          href="team.html"
+        >
+          <b style=" font-size: 2em;">| Contact Us</b></a
+        >
+
+        <a 
+          class="w3-small w3-hover-text-deep-orange text-color"
+          href="index.html"
+        >
+          
+          <img src="Login/images/logout.jpg" alt="Logout" height="65" style="position: fixed; right: 10px; padding-bottom:22">
+        </a
+        >
+      </p>
+    </div>
+
+    <div class="container" style="padding-bottom: 25px;">
+      <div class="mobilenet-demo-container" >
+        <h1>Skin Cancer Detector</h1>
+        <div class="demo-wrapper">
+          <div>
+            <button id="load-button" class="input-button" onclick="loadModel()">
+              Load Model
+            </button>
+            <button
+              id="demo-image-button"
+              class="input-button"
+              onclick="loadDemoImage()"
+            >
+              Demo Image
+            </button>
+            <label for="select-file-image" class="input-button">
+              Upload Image
+            </label>
+            <input
+              id="select-file-image"
+              type="file"
+              onchange="loadFile(event)"
+              style="display: none"
+            />
+            <div 
+              id="progress-box"
+              style="display: none; width: 100% !important ; transition-delay: 2s;"
+            >
+              <img src="assets/Loadgiphy.gif" id="demo-load" width="200px"  />
+              <p style="color: white">Loading mobilenet model ... Please Wait</p>
+            </div>
+          </div>
+          <div style="padding: 10px;">
+            <button
+              id="predict-button"
+              class="input-button predict-button" style="
+              padding: 12px;"
+              onclick="predButton()"
+            >
+              Predict
+            </button>
+          </div>
+        </div>
+        <div class="demo-output">
+          <div class="out-box" id="select-file-box" style="display: none">
+            <img id="test-image" height="300px" width="450px" margin="2px" />
+          </div>
+          <div class="out-box" id="predict-box" style="display: none">
+            <p id="prediction"></p>
+            <br />
+            <p>
+              <b
+                style="
+                  color: #c2c2c2 !important;
+                  font-style: italic;
+                  font-weight: 100;
+                  font-size: 18px;
+                "
+                >Here is Top-3 Predictions :</b
+              >
+            </p>
+            <ul id="predict-list"></ul>
+          </div>
+        </div>
+        <div class="chart">
+          <canvas id="chart-box" style="display: none" height="120px"></canvas>
+        </div>
+      </div>
+    </div>
+    <footer style="margin: 0px auto ; position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center; background-color: #32829c; font-weight: bold; color: antiquewhite;" 
+    >
+    Copyright &copy;
+      2022-2023 Major Project (Group ID : 2B19) All Right Reserved
+      
+    </footer>
+
+  </body>
+</html>
+<!-- #32829c -->

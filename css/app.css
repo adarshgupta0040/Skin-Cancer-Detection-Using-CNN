@@ -1,0 +1,190 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.mobilenet-demo-container {
+  background-color: #2b3436;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 940px;
+}
+.mobilenet-demo-container .demo-wrapper {
+  display: table;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mobilenet-demo-container .demo-wrapper {
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .mobilenet-demo-container .demo-wrapper {
+    padding: 0px;
+  }
+}
+.mobilenet-demo-container .demo-wrapper div {
+  display: table-cell;
+  width: 60%;
+}
+@media screen and (max-width: 740px) {
+  .mobilenet-demo-container .demo-wrapper div {
+    display: table-row;
+  }
+}
+.mobilenet-demo-container .demo-wrapper div:nth-child(1) {
+  text-align: left;
+}
+@media screen and (max-width: 740px) {
+  .mobilenet-demo-container .demo-wrapper div:nth-child(1) {
+    text-align: center;
+  }
+}
+.mobilenet-demo-container .demo-wrapper div:nth-child(2) {
+  text-align: right;
+}
+@media screen and (max-width: 740px) {
+  .mobilenet-demo-container .demo-wrapper div:nth-child(2) {
+    text-align: center;
+  }
+}
+.mobilenet-demo-container h1 {
+  font-size: 40px;
+  background-color: #24a8b9;
+  padding: 10px;
+  margin: 0px;
+  border: 1px solid #24a8b9;
+  border-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: Nunito;
+  text-align: center;
+  color: white;
+}
+.mobilenet-demo-container .input-button {
+  background-color: #24a8b9;
+  color: white;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  padding: 5px 5px;
+  cursor: pointer;
+  border: 1px solid #24a8b9;
+  font-size: 18px;
+  margin: 20px 5px;
+  white-space: nowrap;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.mobilenet-demo-container .input-button:hover {
+  box-shadow: 0 1px 8px rgba(219, 219, 219, 0.3),
+    0 5px 10px rgba(207, 207, 207, 0.22);
+}
+.mobilenet-demo-container .input-button:focus {
+  outline: none;
+}
+.mobilenet-demo-container .demo-output {
+  display: flex;
+  width: 100%;
+  background-color: #24a8b9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mobilenet-demo-container .out-box {
+  display: table-cell;
+  width: 50%;
+  margin: 0px auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #2b3436;
+}
+.mobilenet-demo-container .out-box p {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px !important;
+  font-size: 20px;
+}
+.mobilenet-demo-container .out-box b {
+  color: #ffcc00;
+  font-size: 30px;
+}
+@media screen and (max-width: 640px) {
+  .mobilenet-demo-container .out-box b {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .mobilenet-demo-container .out-box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .mobilenet-demo-container select {
+    margin-top: 25px;
+  }
+}
+.mobilenet-demo-container .predict-button {
+  background-color: #ffcc00;
+  border: 2px solid black;
+  color: black;
+}
+.mobilenet-demo-container .predict-button:hover {
+  background-color: #2b3436;
+  color: white;
+  border-color: white;
+}
+.mobilenet-demo-container #demo-progress {
+  width: 100%;
+  background-color: #ddd;
+}
+.mobilenet-demo-container #results-box {
+  padding: 0px 10px !important;
+  width: 100% !important;
+}
+.mobilenet-demo-container #load-button {
+  position: relative;
+}
+.mobilenet-demo-container #load-button span {
+  display: block;
+  width: 22px;
+  font-size: 15px;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #ebebeb;
+  color: black;
+  position: absolute;
+  top: -30px;
+  left: 35px;
+  font-weight: bold;
+}
+.mobilenet-demo-container #progress-bar {
+  width: 1%;
+  height: 30px;
+  background-color: #4caf50;
+}
+.mobilenet-demo-container #predict-list {
+  margin: 0px;
+  color: white;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+#chart-box {
+  margin: 10px;
+  background-color: #2b3436;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.test-image {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=app.css.map */
