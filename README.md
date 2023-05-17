@@ -27,3 +27,4 @@ https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/739241
 
 
 
+https://drive.google.com/file/d/123g4L2-3rU4X70XgZ7K656HbVNJsCXK4/view?usp=sharing
