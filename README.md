@@ -22,12 +22,8 @@ Project Demo shown Below :
 <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/57c3583d-195c-4e94-970a-b6189c76aa9c">
 
 <h4> 3 : Load the Model <h4>
-  <video width="500px" height="500px"
-        controls="controls"/>
-         
-        <source src="https://drive.google.com/file/d/123g4L2-3rU4X70XgZ7K656HbVNJsCXK4/view?usp=sharing"
-            type="video/mp4">
-    </video>
+
+https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/8822c1e1-eb34-4cda-9cef-67cd6354273f
 
 
 
