@@ -30,7 +30,7 @@ https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/739241
 <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/459a5a71-b89d-4125-99ef-99644935feef">
 
 <h4> 5 : About the Project Page and FAQ's of Project <h4>
-  <img width="960" height="200" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/9e878189-a9a9-45f3-8fcb-62ed0117ca3e">
+  <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/9e878189-a9a9-45f3-8fcb-62ed0117ca3e">
   <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/5db7c05d-f6fc-4ea6-a3a7-5f6954fd856e">
 <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/bc39a074-8de2-4270-b5e9-83c8538c2c22">
 
