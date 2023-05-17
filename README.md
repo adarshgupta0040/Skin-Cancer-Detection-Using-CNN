@@ -15,7 +15,7 @@ Check out the Application
 You can find the Kaggle Notebook used to train the model here: [Kaggle Notebook ](https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/blob/master/sc_detector/notebooks/using-mobilenet-keras.ipynb)
 
 Project Demo shown Below :
-<h4> 1 : Login Page ( use credential username : "admin" & Password = "admin123") <h4>
+<h4> 1 : Login Page ( use credential username : "admin" & Password = "admin") <h4>
 <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/dcb4c14d-fa70-4d82-b64b-c51d8358286f">
 
 <h4> 2 : Home Page <h4>
