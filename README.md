@@ -25,7 +25,7 @@ Project Demo shown Below :
   <video width="500px" height="500px"
         controls="controls"/>
          
-        <source src="[vid.mp4](https://drive.google.com/file/d/123g4L2-3rU4X70XgZ7K656HbVNJsCXK4/view?usp=sharing)"
+        <source src="https://drive.google.com/file/d/123g4L2-3rU4X70XgZ7K656HbVNJsCXK4/view?usp=sharing"
             type="video/mp4">
     </video>
 
