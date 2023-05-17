@@ -10,9 +10,9 @@ A Web Application that uses Computer Vision and Deep Learning to identify the th
 
 Check out the Application
   - Skin Cancer Detector: https://indrap24.github.io/skin-cancer-detector/
-  - About the Project: https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/blob/master/faq.html
+  - About the Project: [FAQ of Project] (https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/blob/master/faq.html)
 
-You can find the Kaggle Notebook used to train the model here: [Kaggle Notebook](https://www.kaggle.com/indrashispaul/using-mobilenet-keras-tfjs-web-app/notebook)
+You can find the Kaggle Notebook used to train the model here: [Kaggle Notebook](https://www.kaggle.com/indrashispaul/using-mobilenet-keras-tfjs-web-app/notebook](https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/blob/master/sc_detector/notebooks/using-mobilenet-keras.ipynb)
 
 
 
