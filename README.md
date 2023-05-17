@@ -21,10 +21,20 @@ Project Demo shown Below :
 <h4> 2 : Home Page <h4>
 <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/57c3583d-195c-4e94-970a-b6189c76aa9c">
 
-<h4> 3 : Load the Model <h4>
+<h4> 3 : Load the Model using Load Model button <h4>
 
 https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/8822c1e1-eb34-4cda-9cef-67cd6354273f
+  
+<h4> 4 : Upload a image or click on Demo image to upload image automatically <h4>
+  
+<img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/459a5a71-b89d-4125-99ef-99644935feef">
+
+<h4> 5 : About the Project Page and FAQ's of Project <h4>
+  <img width="960" height="200" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/9e878189-a9a9-45f3-8fcb-62ed0117ca3e">
+  <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/5db7c05d-f6fc-4ea6-a3a7-5f6954fd856e">
+<img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/bc39a074-8de2-4270-b5e9-83c8538c2c22">
 
 
+<h4> 6 : Our Team : Contact us page </h4>
+  <img width="960" alt="image" src="https://github.com/adarshgupta0040/Skin-Cancer-Detection-Using-CNN/assets/73924145/a672652a-9479-49e3-8373-a37a2648aebc">
 
-https://drive.google.com/file/d/123g4L2-3rU4X70XgZ7K656HbVNJsCXK4/view?usp=sharing
